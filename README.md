@@ -30,4 +30,4 @@
     + create app
     + packagename: in AndroidManifest.xml (android/app/src/main), App name
     + download in to path: android/app
-    + run react-native run-android
+  - run: react-native run-android
