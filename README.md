@@ -1,4 +1,3 @@
-# React-Native-Tutorial
 # SET UP
   1. Java jdk: https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
   2. Android studio: https://developer.android.com/studio/ https://facebook.github.io/react-native/docs/getting-started
