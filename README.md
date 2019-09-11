@@ -22,11 +22,11 @@
   2. Open file by VSC
   3. install react-native: npm install -g react-native-cli
   4. npm install
-  5. npm run rename **
-  6. download google-service
-    + login
+  5. npm run rename
+  6. Firebase link  
+    + login : https://console.firebase.google.com
     + create project
     + create app
-    + packagename: in AndroidManifest.xml (android/app/src/main), App name
-    + download in to path: android/app
+    + package name: in AndroidManifest.xml (android/app/src/main)
+    + download google-service in to path: android/app
   7. run: react-native run-android
