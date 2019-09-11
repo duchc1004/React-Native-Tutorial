@@ -24,9 +24,9 @@
   4. npm install
   5. npm run rename
   6. Firebase link  
-    + login : https://console.firebase.google.com
-    + create project
-    + create app
-    + package name: in AndroidManifest.xml (android/app/src/main)
-    + download google-service in to path: android/app
+    - login : https://console.firebase.google.com
+    - create project
+    - create app
+    - package name: in AndroidManifest.xml (android/app/src/main)
+    - download google-service in to path: android/app
   7. run: react-native run-android
