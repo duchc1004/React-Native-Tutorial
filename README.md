@@ -5,9 +5,9 @@
   4. VSCode: https://code.visualstudio.com/Download
   5. Git SCM: https://git-scm.com/download/
   6. Environment variable:
-  + PLATFORM-TOOLS (Modify Path): C:\Users\duc.huynhcong\AppData\Local\Android\Sdk\platform-tools
-  + JAVA_HOME (new): C:\Program Files\Java\jdk1.8.0_211
-  + ANDROID_HOME (new): C:\Users\duc.huynhcong\AppData\Local\Android\Sdk
+    - PLATFORM-TOOLS (Modify Path): C:\Users\duc.huynhcong\AppData\Local\Android\Sdk\platform-tools
+    - JAVA_HOME (new): C:\Program Files\Java\jdk1.8.0_211
+    - ANDROID_HOME (new): C:\Users\duc.huynhcong\AppData\Local\Android\Sdk
   7. VSCode Extension
     1.Auto Rename Tag: (Downloads: 1.1M)
     2.Bracket Pair Colorizer 2 (Donwloads: 66K)
@@ -30,3 +30,24 @@
     - package name: in AndroidManifest.xml (android/app/src/main)
     - download google-service in to path: android/app
   7. run: react-native run-android
+# INSTALL NAVIGATION (Stack, Tab, Drawer)
+  1. Install 
+    - npm install react-navigation
+    - npm install react-native-gesture-handler
+    - react-native link react-native-gesture-handler
+  2. Structure
+    - src
+      + navigators
+        1. screens
+          a. DrawerScreens
+          b. StackScreens
+          c. TabScreens
+        2. AppNavigator.js
+        3. DrawerNavigator.js
+        4. StackNavigator.js
+        5. TabNavigator.js
+        6. SwitchNavigator.js
+      + App.js (change source in index.js)
+      + app.json (change source in index.js)
+
+      
