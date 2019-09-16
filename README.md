@@ -1,3 +1,10 @@
+# INTRODUCTION
+  1. What is React Native?
+  - React.js : A javaScript Library for building User Interfaces, Typically used for Web Development, React itself is Platform agnostic
+  - React Native: A collection of special React components, components compiled to Native Widgets, Native Platform APIs exposed to JS, Connects Js and Native Platform Code
+  - React.js + react Native = React Native Mobiles Apps
+  2. Behind the Scenes
+  - 
 # SET UP
   1. Java jdk: https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
   2. Android studio: https://developer.android.com/studio/ https://facebook.github.io/react-native/docs/getting-started
