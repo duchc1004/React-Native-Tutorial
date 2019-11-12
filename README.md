@@ -41,20 +41,12 @@
   1. Install 
     - npm install react-navigation
     - npm install react-native-gesture-handler
-    - react-native link react-native-gesture-handler
   2. Structure
-    - src
-      + navigators
-        1. screens
-          a. DrawerScreens
-          b. StackScreens
-          c. TabScreens
-        2. AppNavigator.js
-        3. DrawerNavigator.js
-        4. StackNavigator.js
-        5. TabNavigator.js
-        6. SwitchNavigator.js
-      + App.js (change source in index.js)
-      + app.json (change source in index.js)
-
+    - navigators
+     + screens: DrawerScreens, StackScreens, TabScreens
+     + StackNavigator.js
+     + TabNavigator.js
+     + DrawerNavigator.js
+     + SwitchNavigator.js
+     + AppNavigator.js
       
