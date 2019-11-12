@@ -49,4 +49,10 @@
      + DrawerNavigator.js
      + SwitchNavigator.js
      + AppNavigator.js
-      
+# STOCKS:
+  1. All stocks: http://thestocks.im
+  2. Font Icons: https://oblador.github.io/react-native-vector-icons
+  3. Image Icons: https://www.flaticon.com
+  4. Color: https://flatuicolors.com
+  4. Face / Avatar: http://pravatar.cc
+  5. Animatable (Animation): https://github.com/oblador/react-native-animatable
