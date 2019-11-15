@@ -38,7 +38,7 @@
     - download google-service in to path: android/app
   7. run: react-native run-android
 # INSTALL NAVIGATION (Stack, Tab, Drawer)
-  1. Install 
+  1. Install  https://reactnavigation.org/docs/en/getting-started.html
     - npm install react-navigation
     - npm install react-native-gesture-handler
   2. Structure
