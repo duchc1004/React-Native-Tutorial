@@ -23,10 +23,22 @@
     6.One Dark Pro (Downloads: 7.8M)
     7.Debugger for Chrome (Downloads: 15.4M)
     8. Prettier (Downloads: 7.8M)
+  
 # CREATE NEW PROJECT
   1. Init project: https://facebook.github.io/react-native/docs/getting-started
+* Open gitbash or cmd
 - react-native init ProjectName
+* Open project on VSC => open Terminal
+- npm install -g react-native-cli
 - react-native run-android
+- add src (from rn_src) => modify app.json (project_name)
+- Delete App.js and app.json
+- install: alias package
+** npm install -D eslint-import-resolver-babel-module@^5.1.0
+eslint-plugin-import@^2.18.2 babel-plugin-module-resolver@^3.2.0
+- Replace: index.js,.babelrc, .eslintrc.js, jsconfig.json (out_src)
+
+
 
 2. Navigation: https://reactnavigation.org/docs/en/getting-started.html (step by step)
   + npm install --save react-navigation
