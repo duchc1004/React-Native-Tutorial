@@ -29,22 +29,22 @@
 - react-native run-android
 
 2. Navigation: https://reactnavigation.org/docs/en/getting-started.html (step by step)
-  npm install --save react-navigation
-  npm install --save react-navigation-stack
-  npm install --save react-navigation-tabs
-  npm install --save react-navigation-drawer
-  npm install --save react-native-reanimated react-native-gesture-handler react-native-screens@^1.0.0-alpha.23
-  npm install --save react-native-vector-icons
-  (android => setting.gradle : 
+  + npm install --save react-navigation
+  + npm install --save react-navigation-stack
+  + npm install --save react-navigation-tabs
+  + npm install --save react-navigation-drawer
+  + npm install --save react-native-reanimated react-native-gesture-handler react-native-screens@^1.0.0-alpha.23
+  + npm install --save react-native-vector-icons
+  ***(android => setting.gradle : 
   include ':react-native-vector-icons'
-  project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-   icons/android') 
+  project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react- native-vector-   icons/android') 
   )
 
 3. Redux saga: https://redux-saga.js.org/
-  npm install --save react-redux
-  npm install --save redux-saga
-  npm install --save redux-devtools-extension
-  npm install axios
+  + npm install --save react-redux
+  + npm install --save redux-saga
+  + npm install --save redux-devtools-extension
+  + npm install axios
 (https://www.npmjs.com/package/react-native-axios)
 # STOCKS:
   1. All stocks: http://thestocks.im
