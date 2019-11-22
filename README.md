@@ -25,6 +25,7 @@
     8. Prettier (Downloads: 7.8M)
   
 # CREATE NEW PROJECT
+  0. Structure: https://cheesecakelabs.com/blog/efficient-way-structure-react-native-projects/
   1. Init project: https://facebook.github.io/react-native/docs/getting-started
 * Open gitbash or cmd
 - react-native init ProjectName
@@ -46,6 +47,7 @@ eslint-plugin-import@^2.18.2 babel-plugin-module-resolver@^3.2.0
   + npm install --save react-navigation-tabs
   + npm install --save react-navigation-drawer
   + npm install --save react-native-reanimated react-native-gesture-handler react-native-screens@^1.0.0-alpha.23
+  + modify some files : https://reactnavigation.org/docs/en/getting-started.html (step by step)
   + npm install --save react-native-vector-icons
   ***(android => setting.gradle : 
   include ':react-native-vector-icons'
