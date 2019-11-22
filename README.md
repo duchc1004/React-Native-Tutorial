@@ -117,3 +117,67 @@
   cd android
   ./gradlew assembleRelease
   9. You apk file in: android/app/build/outputs/apk/app-release.apk
+  
+  # Advance
+  1. Animation
+- interpolate: chuyen doi don vi tinh
+2. Platform Specific
+- chon he dieu hanh, de su dung thuoc tinh khac nhau
+- Platform.version: xem version cua dien thoai
+- .ios/.android (khi chay se auto chon file ung voi os de chay)
+3. Timer
+4. Debug
+- inspec: ract-devtools
+5. Performance monitor
+- devetool: console.log
+- Animation
+- Flatlist
+- __DEV__: moi truong dev
+6. Screen orentation lock
+7. Async Storage: luu tren dia cung cua dien
+- bo du lieu mini
+- luu tam: auto login
+
+
+Google map : https://github.com/react-native-community/react-native-maps
+** check version: https://www.npmjs.com/search?q=react-native-maps
+- install/link: https://github.com/react-native-community/react-native-maps/blob/master/docs/installation.md
+- modify: manifest.xml/enter: key (https://developers.google.com/maps/documentation/android-sdk/get-api-key)	
+
+get map: get geolocation
+- modify manifest: to get allow: https://facebook.github.io/react-native/docs/geolocation
+
+8. Camera
+- install: https://github.com/react-native-community/react-native-camera	
+- https://react-native-community.github.io/react-native-camera/docs/installation.html
+1.6.4
+
+# API
+1. Events cach goi ham
+- binding: khi render thi duoc tao lai
+- bind(this): co moi su dung duoc this trong ham
+- arrow function = da binding(khai bao) o contructor
+
+2. Networking:
+ham fetch(''): ham cho phep tuong tac API (web service) co san trong js
+- vi js bat dong bo nen phai dung .then
+- lenh lm viec voi API nen dat coponent Didmount (display: lam lag UI) do lifecycle cua (cont=>render) nhanh hon
+- java call back hell
+- muon tuan tu: async await
+- truyen params phai chuyen sang string
+- co bien de danh giau da loading xong
+- ActivityDicator: v?g xoay khi dang loading
+- Map: giong lenh for
+- Nen co key: de render
+3. Axios: tien nghi, cau hinh bai ban hon fetch (set up Axio)
+4. Scroll View: Neu lay nhieu du lieu thi render rat lau => khong dung de lap lai mang du lieu (dung de sap xep UI)
+5. List view
+- FlatView: chi render nhung view chuan bi xuat hien
++ data
++ KeyExtrator
++ renderItem
+- Sessionlist: 
+6. Postman: test truoc khi lam viec voi API
+7. Lam viec voi API
+- Description: url, method, body
+8 Animitable: chay hieu ung (set up react-native-animatable)
