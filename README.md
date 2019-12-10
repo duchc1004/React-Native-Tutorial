@@ -42,7 +42,7 @@
   + npm install --save react-native-reanimated react-native-gesture-handler react-native-screens@^1.0.0-alpha.23
   + modify some files : https://reactnavigation.org/docs/en/getting-started.html (step by step)
   + npm install --save react-native-vector-icons
-  ***add in the end: /app/build.gradle
+  *add in the end: /app/build.gradle =>
   apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 
 3. Redux saga: https://redux-saga.js.org/
