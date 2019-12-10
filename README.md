@@ -32,14 +32,8 @@
 * Open project on VSC => open Terminal
 - npm install -g react-native-cli
 - react-native run-android
-- add src (from rn_src) => modify app.json (project_name)
-- Delete App.js and app.json
-- install: alias package
-** npm install -D eslint-import-resolver-babel-module@^5.1.0
-eslint-plugin-import@^2.18.2 babel-plugin-module-resolver@^3.2.0
-- Replace: index.js,.babelrc, .eslintrc.js, jsconfig.json (out_src)
-
-
+- add rn_src
+- install alias package: npm install --save-dev babel-plugin-module-resolver
 
 2. Navigation: https://reactnavigation.org/docs/en/getting-started.html (step by step)
   + npm install --save react-navigation
@@ -49,16 +43,15 @@ eslint-plugin-import@^2.18.2 babel-plugin-module-resolver@^3.2.0
   + npm install --save react-native-reanimated react-native-gesture-handler react-native-screens@^1.0.0-alpha.23
   + modify some files : https://reactnavigation.org/docs/en/getting-started.html (step by step)
   + npm install --save react-native-vector-icons
-  ***(android => setting.gradle : 
-  include ':react-native-vector-icons'
-  project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react- native-vector-   icons/android') 
-  )
+  ***add in the end: /app/build.gradle
+  apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
+  
 
 3. Redux saga: https://redux-saga.js.org/
   + npm install --save react-redux
   + npm install --save redux-saga
   + npm install --save redux-devtools-extension
-  + npm install axios
+  + npm install --save axios
 (https://www.npmjs.com/package/react-native-axios)
 # STOCKS:
   1. All stocks: http://thestocks.im
