@@ -33,7 +33,6 @@
 - npm install -g react-native-cli
 - react-native run-android
 - install alias package: npm install --save-dev babel-plugin-module-resolver
-- add rn_src
 
 2. Navigation: https://reactnavigation.org/docs/en/getting-started.html (step by step)
   + npm install --save react-navigation
@@ -51,6 +50,7 @@
   + npm install --save redux-devtools-extension
   + npm install --save axios
 (https://www.npmjs.com/package/react-native-axios)
+4. Add rn_src
 # STOCKS:
   1. All stocks: http://thestocks.im
   2. Font Icons: https://oblador.github.io/react-native-vector-icons
