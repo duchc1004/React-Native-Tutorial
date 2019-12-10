@@ -32,20 +32,18 @@
 * Open project on VSC => open Terminal
 - npm install -g react-native-cli
 - react-native run-android
-- add rn_src
 - install alias package: npm install --save-dev babel-plugin-module-resolver
+- add rn_src
 
 2. Navigation: https://reactnavigation.org/docs/en/getting-started.html (step by step)
   + npm install --save react-navigation
   + npm install --save react-navigation-stack
   + npm install --save react-navigation-tabs
-  + npm install --save react-navigation-drawer
   + npm install --save react-native-reanimated react-native-gesture-handler react-native-screens@^1.0.0-alpha.23
   + modify some files : https://reactnavigation.org/docs/en/getting-started.html (step by step)
   + npm install --save react-native-vector-icons
   ***add in the end: /app/build.gradle
   apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
-  
 
 3. Redux saga: https://redux-saga.js.org/
   + npm install --save react-redux
