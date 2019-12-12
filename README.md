@@ -22,19 +22,17 @@
     5.Material Icon Theme (Downloads: 5M)
     6.One Dark Pro (Downloads: 7.8M)
     7.Debugger for Chrome (Downloads: 15.4M)
-    8. Prettier (Downloads: 7.8M)
+    8.Prettier (Downloads: 7.8M)
   
 # CREATE NEW PROJECT
   0. Structure: https://cheesecakelabs.com/blog/efficient-way-structure-react-native-projects/
   1. Init project: https://facebook.github.io/react-native/docs/getting-started
-* Open gitbash or cmd
-- react-native init ProjectName
-* Open project on VSC => open Terminal
-- npm install -g react-native-cli
-- react-native run-android
-- install alias package: npm install --save-dev babel-plugin-module-resolver
+  + Open gitbash or cmd: react-native init ProjectName
+  + Open project on VSC => open Terminal
+  + npm install -g react-native-cli (first time)
+  + install alias package: npm install --save-dev babel-plugin-module-resolver
 
-2. Navigation: https://reactnavigation.org/docs/en/getting-started.html (step by step)
+  2. Navigation: https://reactnavigation.org/docs/en/getting-started.html (step by step)
   + npm install --save react-navigation
   + npm install --save react-navigation-stack
   + npm install --save react-navigation-tabs
@@ -44,13 +42,20 @@
   *add in the end: /app/build.gradle =>
   apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 
-3. Redux saga: https://redux-saga.js.org/
+  3. Redux saga: https://redux-saga.js.org/
   + npm install --save react-redux
   + npm install --save redux-saga
   + npm install --save redux-devtools-extension
   + npm install --save axios
 (https://www.npmjs.com/package/react-native-axios)
-4. Add rn_src
+  4. Add rn_src and run project
+  + react-native run-android
+  
+  
+  
+  
+  
+  
 # STOCKS:
   1. All stocks: http://thestocks.im
   2. Font Icons: https://oblador.github.io/react-native-vector-icons
