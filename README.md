@@ -31,7 +31,7 @@
   + Open project on VSC => open Terminal
   + npm install -g react-native-cli (first time)
   + install alias package: npm install --save-dev babel-plugin-module-resolver
-
+  
   2. Navigation: https://reactnavigation.org/docs/en/getting-started.html (step by step)
   + npm install --save react-navigation
   + npm install --save react-navigation-stack
@@ -50,6 +50,7 @@
 (https://www.npmjs.com/package/react-native-axios)
   4. Multi language:
   + npm install --save react-native-i18n
+  + npm install --save react-native-elements
   5. Add rn_src and run project
   + react-native run-android
   
