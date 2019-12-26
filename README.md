@@ -48,7 +48,9 @@
   + npm install --save redux-devtools-extension
   + npm install --save axios
 (https://www.npmjs.com/package/react-native-axios)
-  4. Add rn_src and run project
+  4. Multi language:
+  + npm install --save react-native-i18n
+  5. Add rn_src and run project
   + react-native run-android
   
   
