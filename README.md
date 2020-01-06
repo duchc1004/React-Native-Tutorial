@@ -53,7 +53,7 @@
   + npm install --save react-native-elements
   5. Add rn_src and run project
   + react-native run-android
-  6. Date Picker: https://www.npmjs.com/package/react-native-datepicker
+  6. Date Picker: https://github.com/react-native-community/react-native-datetimepicker
   7. Current time: https://aboutreact.com/react-native-get-current-time-in-12-hours-format-am-pm/
   8. Keyboard: android:windowSoftInputMode="adjustPan"
   
