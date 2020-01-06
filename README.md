@@ -55,7 +55,7 @@
   + react-native run-android
   6. Date Picker: https://www.npmjs.com/package/react-native-datepicker
   7. Current time: https://aboutreact.com/react-native-get-current-time-in-12-hours-format-am-pm/
-  
+  8. Keyboard: android:windowSoftInputMode="adjustPan"
   
   
   
